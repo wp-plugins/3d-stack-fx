@@ -17,11 +17,11 @@ You can integrate it in any website for free without even using Flash. It's usin
 
 Make sure your Wordpress version is equal or greater than 2.8 and your hosting provider is using PHP5.
 
-1. Upload the `3d-stack-fx` directory along with all its files to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
+1. Upload the `3d-stack-fx` folder along with all its subfolders and files to the `/wp-content/plugins/` folder
+2. Activate the plugin from the **Plugins** menu in WordPress Dashboard
 3. In the post editor use the following tag to embed the 3D Stack: `[3d-stack-fx][/3d-stack-fx]`. Or add `<?php stackfx_echo_embed_code(); ?>` in your templates
 4. Go to [FlashXML.net](http://www.flashxml.net/ "Free Flash Components") and [customize your 3D Stack](http://www.flashxml.net/3d-stack.html "3D Stack") using the Live Demo. Generate the `settings.xml` text and use it to overwrite `3d-stack-fx/component/settings.xml`
-5. To use your own images, upload them to the `3d-stack-fx/component/images` directory and update the `3d-stack-fx/component/images.xml` file accordingly
+5. To use your own images, upload them to the `3d-stack-fx/component/images` folder and update the `3d-stack-fx/component/images.xml` file accordingly
 
 = Additional settings file =
 
