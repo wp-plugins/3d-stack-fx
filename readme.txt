@@ -2,7 +2,7 @@
 Contributors: flashxml
 Tags: images, photos, widget, post, plugin, posts, sidebar, 3d, stack, free, flash, as3, thumb, image, tooltip, effect, animation, effects, text, reflection, thumbs, xml, photo, lightbox, slideshow, scrollbar, scroll, slide
 Requires at least: 2.8.0
-Tested up to: 2.9.2
+Tested up to: 3.0
 Stable tag: trunk
 
 == Description ==
