@@ -3,7 +3,7 @@
 Plugin Name: 3D Stack FX
 Plugin URI: http://www.flashxml.net/3d-stack.html
 Description: One of the most advanced 3D Stack on the web. Completely XML customizable, without using Flash. And it's free!
-Version: 0.2.0
+Version: 0.2.1
 Author: FlashXML.net
 Author URI: http://www.flashxml.net/
 License: GPL2
