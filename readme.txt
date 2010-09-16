@@ -5,6 +5,8 @@ Requires at least: 2.8.0
 Tested up to: 3.0.1
 Stable tag: trunk
 
+One of the most advanced 3D Stack on the web. Completely XML customizable, without using Flash. And it's free!
+
 == Description ==
 
 You can integrate it in any website for free without even using Flash. It's using the Papervision3D engine and it has multiple camera rotations and views with reflection effect. There is a configurable plane rotation and view of the first (head) and last (tail) images. You can use the optional slideshow function with unlimited number of many formats of images (JPG, GIF, PNG, BMP) of different widths and heights. It has many tooltip customizations and the scrollbar is skinnable.
