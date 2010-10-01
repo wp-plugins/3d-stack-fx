@@ -2,7 +2,7 @@
 /*
 Plugin Name: 3D Stack FX
 Plugin URI: http://www.flashxml.net/3d-stack.html
-Description: One of the most advanced 3D Stack on the web. Completely XML customizable, without using Flash. And it's free!
+Description: One of the most advanced 3D Stack on the web. Completely XML customizable without any Flash knowledge. And it's free!
 Version: 0.2.7
 Author: FlashXML.net
 Author URI: http://www.flashxml.net/
@@ -36,20 +36,16 @@ License: GPL2
 				$height = (int)$data->General_Properties->heightComponent->attributes()->value;
 			}
 		} elseif ((int)$stackfx_attributes[4] > 0 && (int)$stackfx_attributes[6] > 0) {
-			$width = $stackfx_attributes[4];
-			$height = $stackfx_attributes[6];
+			$width = (int)$stackfx_attributes[4];
+			$height = (int)$stackfx_attributes[6];
 		} else {
 			return '<!-- invalid 3D Stack FX width and / or height -->';
-		}
-
-		if ($width == 0 || $height == 0) {
-			return '';
 		}
 
 		$swf_embed = array(
 			'width' => $width,
 			'height' => $height,
-			'text' => trim($stackfx_attributes[7]),
+			'text' => isset($stackfx_attributes[7]) ? trim($stackfx_attributes[7]) : '',
 			'component_path' => WP_CONTENT_URL . "/{$plugin_dir}/",
 			'swf_name' => '3dstack.swf',
 		);
