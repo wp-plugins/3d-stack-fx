@@ -47,7 +47,7 @@ License: GPL2
 			'height' => $height,
 			'text' => isset($stackfx_attributes[7]) ? trim($stackfx_attributes[7]) : '',
 			'component_path' => WP_CONTENT_URL . "/{$plugin_dir}/",
-			'swf_name' => '3dstack.swf',
+			'swf_name' => '3DStackFX.swf',
 		);
 		$swf_embed['swf_path'] = $swf_embed['component_path'].$swf_embed['swf_name'];
 
